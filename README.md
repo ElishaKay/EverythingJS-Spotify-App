@@ -1,7 +1,7 @@
 
 Screenshots:
 
-<img src="AMP2.png">
+<img src="rubber.png">
 
 
 
