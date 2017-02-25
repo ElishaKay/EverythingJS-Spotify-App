@@ -1,16 +1,21 @@
 <div *ngIf="artist">
-    <header class="artist-header">
+    <div class="row stretch">
         <div *ngIf="artist.images.length > 0">
             <img class="artist-image img-circle" align="center" src="{{artist.images[0].url}}">    
         </div>
+        </div>
+        
+        <div class="col-md-4">
         <h1>{{artist.name}}</h1>
         <p *ngIf="artist.genres.length > 0">
             Genres: <span *ngFor="let genre of artist.genres">{{genre}}</span>
         </p>
-    </header> 
-    
-    <div class="artist-albums">
-        <div class="row">
+        </div>
+
+</div>
+    <div class="row artist-albums">
+        <br>
+        
             <div *ngFor="let album of albums">
                 <div class="col-md-3">
                     <div class="well album">
@@ -22,6 +27,4 @@
                      </div>    
                 </div>
             </div>    
-        </div>    
-    </div>
-</div>
+      </div>
