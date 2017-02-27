@@ -1,1 +1,1 @@
-This repo has been moved here: http://www.slideshare.net/ElishaKramer/angular-2-crash-course-72599333
+This repo has been moved here: https://github.com/ElishaKay/Angular-2-Crash-Course
